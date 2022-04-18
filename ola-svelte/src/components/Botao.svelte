@@ -16,7 +16,7 @@
     margin: 0;
     border: 1px solid var(--bg);
     flex-basis: 25%;
-    background-color: #404040;
+    background-color: #303030;
     color: #fff;
     cursor: pointer;
   }
@@ -28,11 +28,20 @@
     flex-basis: 50%;
   }
   .operacao{
-    background-color: #333333;
+    background-color: #212121;
     color: #fff;
   }
   .destaque{
     background-color: #d43e3e;
     color: #fff;
+  }
+  .botao:hover{
+    background-color: #212121;
+  }
+  .operacao:hover{
+  background-color: #404040;
+  }
+  .destaque:hover{
+    background-color: #e02a2a;;
   }
 </style>

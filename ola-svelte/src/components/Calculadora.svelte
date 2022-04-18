@@ -6,7 +6,7 @@ import Linha from "./Linha.svelte";
 
 </script>
 <div class="calculadora">
-  <Display valor='100000000000000000'/>
+  <Display valor='01234567891234567890'/>
   <Linha>
     <Botao operacao triple texto="AC"/>
     <Botao operacao  texto="/"/>
@@ -41,7 +41,7 @@ import Linha from "./Linha.svelte";
     display: flex;
     flex-direction: column;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 2px;
     height: 220px;
     width: 150px;
     background-color: var(--bg);
