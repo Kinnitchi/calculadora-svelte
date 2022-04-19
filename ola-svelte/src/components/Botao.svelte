@@ -3,16 +3,22 @@
   export let triple: boolean = false;
   export let duplo: boolean = false; 
   export let operacao: boolean = false; 
-  export let destaque: boolean = false; 
+  export let destaque: boolean = false;
+  export let onCLick: (valor: string) => void = () => {}
 </script>
 
-<button class="botao" 
+<button class="botao"
+  on:click={() => onCLick(texto)}
   class:triple class:duplo class:operacao class:destaque>
   {texto}
 </button>
 
 <style>
   .botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     margin: 0;
     border: 1px solid var(--bg);
     flex-basis: 25%;
@@ -20,7 +26,6 @@
     color: #fff;
     cursor: pointer;
   }
-
   .triple{
     flex-basis: 75%;
   }

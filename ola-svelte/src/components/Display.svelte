@@ -12,7 +12,8 @@
 <style>
   .display{
     display: flex;
-    flex: 1;
+    border: 2px solid #00000048;
+    height: 30%;
     justify-content: flex-end;
     align-items: center;
     margin: 2px 1px;
@@ -21,7 +22,8 @@
     overflow: hidden;
     border-top-left-radius:  1px;
     border-top-right-radius:  1px;
-    background-color: aliceblue;
+    background-color: #464646;
+    color: #fff;
   }
 
   .s-11{font-size: 1.4rem;}
